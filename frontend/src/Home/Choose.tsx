@@ -6,7 +6,7 @@ const Choose: React.FC = () => {
         <>
             <section className="px-4 md:px-10">
                 {/* Header Section */}
-                <div className="flex flex-col md:flex-row justify-between items-center my-10 md:my-20">
+                <div className="flex flex-col md:flex-row mb-30 justify-between items-center my-10 md:my-20">
                     <h2 className="font-bold text-3xl md:text-5xl capitalize text-center md:text-left mb-6 md:mb-0">
                         why choose <br /> digiGroth Pro?
                     </h2>

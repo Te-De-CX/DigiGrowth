@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa";
 const Process: React.FC = () => {
     return (
         <>
-            <section className="bg-yellow-100">
+            <section className="bg-yellow-400/10">
                 <div className="px-4 md:px-10 py-4">
                     {/* Header Section */}
                     <div className="flex flex-col md:flex-row justify-between items-center py-3">
@@ -40,7 +40,7 @@ const Process: React.FC = () => {
                         </div>
 
                         {/* Image Card */}
-                        <div className="bg-[url('/src/assets/team.jpg')] bg-cover bg-center w-full md:w-auto flex justify-center items-center text-3xl md:text-5xl text-slate-200 capitalize font-semibold rounded-3xl h-48 md:h-full">
+                        <div className="bg-[url('/src/assets/team.jpg')] bg-cover bg-center w-full md:w-full flex justify-center items-center text-3xl md:text-5xl text-slate-200 capitalize font-semibold rounded-3xl h-48 md:h-full">
                             how we work
                         </div>
 
